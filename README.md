@@ -1,1 +1,2 @@
 # JavaScript-Primeiros-Passos
+Foi criado um simulador de compras, a ser dividida entre duas pessoas, com produtos pré-definidos onde o usuário poderá adcionar o preço de cada produto assim como a quantidade dos mesmo. No final serão exibidos a quantidade que cada um irá pagar, sendo que a compra será dividida, a menos que o valor total da compra seja par, nesse caso o vinho será pago somente pela segunda pessoa.
