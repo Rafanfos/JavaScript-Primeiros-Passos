@@ -39,13 +39,13 @@ function simulacaoDeCompra(){
     let valorPessoaUm = 0;
     let valorPessoaDois = 0;
 
-    if(totalCompra % 2 !== 0){
-        valorPessoaUm = (totalCompra/2).toFixed(2);
-        valorPessoaDois = (totalCompra/2).toFixed(2);
+    if((totalCompra*100) % 2 === 0){
+        valorPessoaUm = (totalSVinho/2).toFixed(2);
+        valorPessoaDois = (totalSVinho/2 + precoVinho*quantidadeVinho).toFixed(2);;
 
     }else{
-        valorPessoaUm = (totalSVinho/2).toFixed(2);
-        valorPessoaDois = (totalSVinho/2 + precoVinho*quantidadeVinho).toFixed(2); 
+        valorPessoaUm = (totalCompra/2).toFixed(2);
+        valorPessoaDois = (totalCompra/2).toFixed(2);
     }
 
     
