@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Simulação de compra entre 2 pessoas</title>
+</head>
+<body class="container">
+    <img src="./img/frutas.png">
+    <div>
+        <h1>Simulação de compra</h1>
+    
+        <p>Se trata de uma simulação onde duas pessoas vão dividir uma compra, porém o vinho será bancado só pela segunda pessoa, a menos que o valor total da compra seja ímpar.</p>
+
+        <p>Os produtos da compra estão abaixo, com quantidade e preços sugeridos.</p>
+    
+        <table>
+            <caption>Produtos com quantidade e preços sugeridos</caption>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Valor Unitário</th>
+            </tr>
+            <tr>
+                <td>Refrigerante</td>
+                <td>3</td>
+                <td>R$ 11,99</td>
+            </tr>
+            <tr>
+                <td>Macarrão</td>
+                <td>4</td>
+                <td>R$ 6,99</td>
+            </tr>
+            <tr>
+                <td>Ervilha</td>
+                <td>3</td>
+                <td>R$ 6,99</td>
+            </tr>
+            <tr>
+                <td>Arroz</td>
+                <td>3</td>
+                <td>R$ 22,99</td>
+            </tr>
+            <tr>
+                <td>Feijão</td>
+                <td>2</td>
+                <td>R$ 11,89</td>
+            </tr>
+            <tr>
+                <td>Vinho</td>
+                <td>3</td>
+                <td>R$ 70,00</td>
+            </tr>
+        </table>
+    
+        <button onclick="simulacaoDeCompra()">Iniciar simulação</button>
+        <br>
+        
+    </div>
+
+    <script src="./script.js"></script>
+
+    
+</body>
+</html>
